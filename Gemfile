@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.0'
 
-gem 'sqlite3-ruby', '1.2.5' :group => :development
+ gem 'ps'
 
 gem 'json'
 
 group :development do
 gem 'rspec-rails', '2.6.0'
+gem 'sqlite3-ruby', '1.2.5'
 end
 
 group :test do
