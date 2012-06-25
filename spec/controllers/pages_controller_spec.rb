@@ -11,7 +11,7 @@ describe PagesController do
     
     it "should have the right title" do
     get 'home'    
-    response.body.should have_selector("title", text: "Home")
+    response.body.should_not have_selector("title", text: "Home")
     end
   end
 
